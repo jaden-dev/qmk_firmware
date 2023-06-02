@@ -18,3 +18,8 @@
 
 #define RGBLIGHT_LAYERS      /* Enable lighting layers */
 #define RGBLIGHT_LAYER_BLINK /* Enable lighting layer blink */
+
+#define RGBLIGHT_LIMIT_VAL 60
+#define RGBLIGHT_DEFAULT_VAL 32
+
+#define RGBLIGHT_EFFECT_RAINBOW_SWIRL
