@@ -17,16 +17,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
-  [0] = LAYOUT(KC_KP_7, KC_KP_8, KC_KP_9,
-               KC_KP_4, LT(1, KC_KP_5), KC_KP_6,
-               KC_KP_1, KC_KP_2, KC_KP_3),
+  [0] = LAYOUT(MEH(KC_1), MEH(KC_2), MEH(KC_3),
+               MEH(KC_4), MEH(KC_5), MEH(KC_6),
+               MO(1),     MO(2),     MO(3)),
 
   [1] = LAYOUT(RGB_RMOD, RGB_VAI, RGB_MOD,
                RGB_HUI, QK_BOOT, RGB_SAI,
                RGB_HUD, RGB_VAD, RGB_SAD),
 
   [2] = LAYOUT(KC_TRNS, KC_TRNS, KC_TRNS,
-               KC_TRNS, KC_TRNS, KC_TRNS,
+               KC_TRNS, QK_BOOT, KC_TRNS,
                KC_TRNS, KC_TRNS, KC_TRNS),
 
   [3] = LAYOUT(KC_TRNS, KC_TRNS, KC_TRNS,
