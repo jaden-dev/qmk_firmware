@@ -36,5 +36,7 @@
         "keymaps",
         "noeeprom",
         "rgblight"
-    ]
+    ],
+    "editor.formatOnSaveMode": "modifications",
+    "editor.formatOnSave": false
 }
